@@ -1,3 +1,9 @@
+###########################
+##   Author: Tom Prins   ##
+###########################
+
+#!!RGB and HSL values are given from 0-1, and the hue values from 0–360°!!
+
 def RGBtoHSL(r, g, b):
     # cmin becomes the lowest, and cmax becomes the highest value of r, g and b
     cmin = min(r, g, b)
